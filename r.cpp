@@ -50,9 +50,8 @@ int main(){
     int arr[]  = {1,2,4,5,3,2,1,2,3};
     int n = 9;
     Array a1;
-    a1.print_arr(arr ,n );
-    int m;
-    m = a1.insert(arr , 3, 5 , n);
+    
+    int m = a1.insert(arr , 2, 3 , n);
     a1.print_arr(arr,m);
     return 0;
 }
