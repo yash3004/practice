@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: flaskr
+Version: 0.0.1
+Summary: creating a simple flask app for the prod purpose
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: flask[all]
+Requires-Dist: PyPDF2

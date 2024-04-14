@@ -1,0 +1,11 @@
+[project]
+name =  "flaskr"
+version = "0.0.1"
+description = "creating a simple flask app for the prod purpose"
+readme = "README.md"
+
+requires-python = ">=3.8"
+dependencies = [
+    "flask[all]" ,
+    "PyPDF2"
+]
